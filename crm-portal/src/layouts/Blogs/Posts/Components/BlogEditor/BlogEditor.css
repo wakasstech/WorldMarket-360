@@ -1,0 +1,25 @@
+/* src/components/BlogEditor.css */
+.blog-editor-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-editor-input {
+    margin-bottom: 16px;
+  }
+  
+  .upload-button {
+    margin-bottom: 16px;
+  }
+  
+  .react-quill {
+    margin-bottom: 16px;
+  }
+  
+  .submit-button {
+    display: block;
+    margin: 0 auto;
+  }
+  

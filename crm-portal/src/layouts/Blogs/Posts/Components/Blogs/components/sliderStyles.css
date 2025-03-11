@@ -1,0 +1,61 @@
+
+.slider-container {
+    position: relative;
+    overflow: visible;
+   padding: 0px 50px;
+
+  }
+
+  .carousel-item {
+    padding: 0 10px; /* Adds padding between cards */
+    margin-top: 20px;
+  }
+  
+  .slick-list {
+    margin: 0 -10px; /* Adjust margins to avoid overflow */
+  }
+  .slick-dots li button:before {
+    font-size: 10px;
+    color:#ff0000; /* Change color of active dot */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff0000; /* Change color of active dot */
+  }
+  .slick-track {
+    display: flex;
+    align-items: stretch; /* Aligns the items vertically */
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    border-radius: 50%; /* Round the arrows */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; /* Default opacity */
+    transition: opacity 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker background on hover */
+    opacity: 1; /* Full opacity on hover */
+  }
+  
+  .slick-prev {
+    left: -50px; /* Positioning the left arrow */
+  }
+  
+  .slick-next {
+    right: -50px; /* Positioning the right arrow */
+  }
+  
+  .slick-prev::before, .slick-next::before {
+    font-size: 20px;
+    color: white; /* White color for the arrow icons */
+  }
+  
+  

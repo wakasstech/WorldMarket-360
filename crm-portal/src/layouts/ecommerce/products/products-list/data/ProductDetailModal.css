@@ -1,0 +1,23 @@
+/* CSS for left arrow */
+.slick-prev {
+  padding: 10px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 50% !important;
+  left: 10px !important;
+  z-index: 2 !important;
+}
+
+/* CSS for right arrow */
+.slick-next {
+  padding: 10px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 50% !important;
+  right: 10px !important;
+  z-index: 2 !important;
+}
+
+/* Optional: Icon color */
+.slick-prev:before,
+.slick-next:before {
+  color: white !important;
+}
